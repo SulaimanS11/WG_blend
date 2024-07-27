@@ -34,32 +34,10 @@ document.addEventListener("DOMContentLoaded", function() {
     nextButton.addEventListener('click', showNextImage);
     prevButton.addEventListener('click', showPrevImage);
 
-    setInterval(showNextImage, 3000); // Change image every 3 seconds
+    setInterval(showNextImage, 3000); // Change image every 5 seconds
 
     updateCarousel();
 });
-
-
-
-// const slides = document.querySelector(".slides");
-// const slideImgs = document.querySelector(".slides img");
-
-// const prevBtn = document.querySelector("#PrevB");
-// const nextBtn = document.querySelector("#NextB");
-
-// let counter = 1;
-// const size = slideImgs[0].clientWidth;
-
-// slides.style.transform = "translateX(" + (-size * counter) + "px)";
-
-// // input actions
-// nextBtn.addEventListener("click",()=>{
-//     slides.style.transition = "transform 0.4s ease-in-out"
-//     counter++;
-//     slides.style.transform = "translateX(" + (-size * counter) + "px)";
-    
-// });
-
 
 
 // code for the message box on the about me page
